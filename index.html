@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+<h1 class="title">Calculate</h1>
+    <form autocomplete="off" class="form">
+        <div class="field">
+            <input class="input" type="text" id="num1" placeholder=" " />
+            <label class="label" for="num1">Enter your number</label>
+        </div>
+
+        <div class="field">
+            <label class="operation-label" for="operation">Operation</label>
+            <select class="selected-operation" id="operation" name="operation">
+                <option value="plus" selected>+</option>
+                <option value="minus">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+        </div>
+    
+        <div class="field">
+            <input class="input" type="text" id="num2" placeholder=" " />
+            <label class="label" for="num2">Enter your number</label>
+        </div>
+    
+        <div class="field-result">
+        <span></span>
+        <button type="submit">Calculate</button>
+        </div>
+        
+    </form>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
