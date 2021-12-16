@@ -1,0 +1,20 @@
+{
+  "name": "maklai-test",
+  "version": "1.0.0",
+  "description": "maklai-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OksanaZel/maklai-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OksanaZel/maklai-test/issues"
+  },
+  "homepage": "https://github.com/OksanaZel/maklai-test#readme"
+}
